@@ -33,7 +33,6 @@ h2 {
     text-decoration: none;
     color: inherit;
     padding: 5px;
-    line-height: 35px;
 }
 
 #menu a:hover {
@@ -48,6 +47,11 @@ nav ul {
 
 /* center introduction container */
 
+.introduction-container {
+    display: flex;
+    justify-content: center;
+}
+
 #circle-container {
     width: 300px;
     height: 300px;
@@ -56,5 +60,16 @@ nav ul {
     border-color: #ccc;
     border-width: 1px;
     border-radius: 50%;
-    margin-left: 300px;
+    margin: 20px;
+}
+
+#introduction-text {
+    padding: 30px;
+
+}
+
+.quotation-container {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
 }
