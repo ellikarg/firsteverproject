@@ -15,24 +15,35 @@ h2 {
 }
 
 /* navigation links */
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-
+    margin: 10px;
 }
 
 #menu li {
     list-style-type: none;
     margin-right: 30px;
+    margin-top: 15px;
+    text-align: center;
 }
 
 #menu a {
     text-decoration: none;
     color: inherit;
+    padding: 5px;
+    line-height: 35px;
 }
 
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
+}
+
+nav ul {
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: flex-end;
 }
 
 /* center introduction container */
