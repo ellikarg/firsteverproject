@@ -7,13 +7,9 @@ body {
 
 /* headings */
 h1 {
-    margin-top: 5%;
     font-size: 200%;
 }
 
-h2 {
-    margin-bottom: 5%;
-}
 
 h1,
 h2 {
@@ -21,6 +17,8 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
 
 /* navigation links */
@@ -45,7 +43,11 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid black;
+}
+
+.active {
+    border-bottom: 1px solid black;
 }
 
 nav ul {
@@ -102,4 +104,10 @@ footer i {
     margin: 1%;
     padding: 5%;
     color: black;
+}
+
+/* Photography & Filmmaking gallery */
+
+.gallery {
+    text-align: left;
 }
