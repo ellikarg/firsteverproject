@@ -84,6 +84,12 @@ nav ul {
     margin: 20px;
 }
 
+#circle-cover-bg {
+    background: url('../images/alessiomida.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
 #introduction-text {
     padding: 30px;
 
