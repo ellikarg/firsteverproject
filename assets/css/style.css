@@ -125,6 +125,21 @@ footer i {
 
 /* Photography & Filmmaking gallery */
 
-.gallery {
+.gallery-heading {
     text-align: left;
+}
+
+.gallery-wrapper {
+    width: 100%;
+}
+
+.photos {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.gallery-images {
+    height: 100%;
+    width: 20%;
+    padding-right: 1%;
 }
