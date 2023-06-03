@@ -109,11 +109,15 @@ Storytelling page:<br>
 
 ## Features
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
-
-This section can be used to explain what pages your site is made up of.
+The Website comprises a landing page, a gallery for the photography categories and one page about storytelling.<br>
 
 ### General features on each page
+
+All pages are responsive and include:<br>
+<ul>
+ <li>A navigation bar</li>
+ <li>A footer with the social media links to facebook and instagram</li>
+</ul>
 
 If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
 
