@@ -1,6 +1,6 @@
 # Homepage of Alessio Mida
 
-Missing: one sentence - what is the website about?
+This homepage is a responsive website that introduces Alessio Mida in his role as a photographer and storyteller to the visitor. It  is not meant to be for selling his service, but to show some of the work he has done so far.
 
 Missing: image of the finished site here [amiresponsive](https://ui.dev/amiresponsive)
 
@@ -46,45 +46,66 @@ Missing: link to the live site (GitHub Page Link)
 
 ## User Experience (UX)
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/Bully-Book-Club#user-experience-ux)
+<h3>Initial Discussion</h3>
+Alessio Mida's Homepage is useful for looking up some projects that he has done so far. He can post photos of his favourite projects in different categories regularly to show visitors his work. Through links to his facebook and instagram page visitors can contact him directly if they have questions or got interested in his service.
+
+<h4>Key information for the site</h4>
+<ul>
+ <li>an introduction to the photographer Alessio Mida</li>
+ <li>examples of his work as a photographer divided in categories</li>
+ <li>stories of his latest travels that will be updated regularly</li>
+</ul>
 
 ### User Stories
 
-Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site. It really helps to think about this before you start coding, and will really help with creating your wireframes.
+<h4>First time visitor goals:</h4>
+<ul>
+ <li>I want to get to know Alessio Mida and his photography</li>
+ <li>I want to get to know Alessio Mida and his storytelling</li>
+ <li>I want to get an idea of his way of working</li>
+ <li>I want to find links to his social media platforms in order to be able to contact him</li>
+</ul>
+
+<h4>Returning visitor goals:</h4>
+<ul>
+ <li>I want to get updated about the photographer's latest works</li>
+ <li>I want to find links to his social media platforms in order to be able to contact him</li>
+</ul>
+
 
 ## Design
 
-👩🏻‍💻 View an example of a completed design section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022#Design)
-
 ### Colour Scheme
 
-Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
+/* CSS HEX */ <br>
+--midnight-green: #004e64ff; <br>
+--pacific-cyan: #00a5cfff; <br>
+--aquamarine: #9fffcbff; <br>
+--persian-green: #25a18eff; <br>
+--light-green: #7ae582ff;
 
-I like to include a palette of the colour scheme here, my favourite site for creating a colour palette is [coolors](https://coolors.co/), but there are lots of other sites that also do the same thing, like [ColorSpace](https://mycolor.space/?hex=%23F5F5F5&sub=1), [Muzli Colors](https://colors.muz.li/), [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) and [Canva](https://www.canva.com/colors/color-palette-generator/) to name a few.
+![color_palette_alessiomida](https://github.com/ellikarg/FirstEverProject/assets/132999023/d751c685-4474-43a8-8c90-8b5adfda2e42)
 
 ### Typography
 
-If you've imported fonts to use in your project, add some information about them here. You can include information like:
+Google Fonts was used to import the chosen fonts for use in the site.
 
-Why did you choose the font you have?
-Is this an accessibly friendly font?
-What weights have you included?
+I chose to use Quicksand, which belongs to the sans-serif font family and fits very well to the images and content of the page. The font is one of the favourite fonts of the photographer. I have included the light 300 weigh in order to make it look soft and a little bit playful. Nevertheless it is still accessiblity friendly and well to read by dyslexic users.
 
-I also like to include an image of the fonts chosen as a reference.
-
-[Google Fonts](https://fonts.google.com/) is a popular choice for importing fonts to use in your project, as it doesn't require you to download the fonts to use them.
+![Quicksand_font](https://github.com/ellikarg/FirstEverProject/assets/132999023/ebe3ab17-9f60-4e72-8d32-b3bb4a97ffc5)
 
 ### Imagery
 
-Use this section to explain what sort of imagery you plan to use through your site.
+The images have been chosen from the photographer's portfolio. He has the rights to show them in order to display his work.
 
 ### Wireframes
 
-Add the images or links for your wireframes here.
-
-There are lots of different options to create your wireframes - Code Institute students can access [Balsamiq](https://balsamiq.com/) as part of the course.
-
-Some other options include [Figma](https://www.figma.com/), [AdobeXD](https://www.adobe.com/products/xd.html), [Sketch](https://www.sketch.com/?utm_source=google&utm_medium=cpc&adgroup=uxui&device=c&matchtype=e&utm_campaign=ADDICTMOBILE_SKETCH_GAD_DG_UK_T1_ALWAYS-ON_S_TRF_PROS_BRAND&utm_term=sketch&utm_source=google&utm_medium=cpc&utm_content=TOF_BRND__generic&hsa_acc=8710913982&hsa_cam=16831089317&hsa_grp=134620695759&hsa_ad=592060065319&hsa_src=g&hsa_tgt=kwd-14921750&hsa_kw=sketch&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwr4eYBhDrARIsANPywCjRIFn93DMezYnsyE5Fic_8l8kynJtut0GYMU01TiohHjwziFtlH0gaAhteEALw_wcB) and [Mockup](https://apps.apple.com/us/app/mockup-sketch-ui-ux/id1527554407) to name just a few! Or you can even go old school and get those wireframes completed using pen and paper. Just snap an image of the completed wireframes to add the images to the README.
+Landing page:<br>
+![Landing page](https://github.com/ellikarg/FirstEverProject/assets/132999023/ba0b332a-f18f-4c2d-8e90-b38a388bcc19)<br><br>
+Gallery page:<br>
+![Gallery](https://github.com/ellikarg/FirstEverProject/assets/132999023/987d50a1-4a4f-4790-b932-fb54acd174c0)<br><br>
+Storytelling page:<br>
+![Storytelling](https://github.com/ellikarg/FirstEverProject/assets/132999023/969bcaa7-7d8b-4ba4-970f-7fbb01901bd4)<br><br>
 
 ## Features
 
@@ -112,11 +133,13 @@ Have you used icons and added aria-labels to enable screen readers to understand
 Have you ensured your site meets the minimum contrast requirements?
 Have you chosen fonts that are dyslexia/accessible friendly?
 
+
 Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
 
 ## Technologies Used
 
 👩🏻‍💻 View an example of a completed Technologies Used section [here](https://github.com/kera-cudmore/Bully-Book-Club#Technologies-Used)
+
 
 ### Languages Used
 
@@ -140,7 +163,8 @@ Include instructions here on how to deploy your project. For your first project 
 
 ### Local Development
 
-The local development section gives instructions on how someone else could make a copy of your project to play with on their local machine. This section will get more complex in the later projects, and can be a great reference to yourself if you forget how to do this.
+
+l development section gives instructions on how someone else could make a copy of your project to play with on their local machine. This section will get more complex in the later projects, and can be a great reference to yourself if you forget how to do this.
 
 #### How to Fork
 
