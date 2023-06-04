@@ -109,7 +109,7 @@ Storytelling page:<br>
 
 ## Features
 
-The Website comprises a landing page, a gallery for the photography categories and one page about storytelling.<br>
+The Website comprises a landing page, a gallery for the photography categories and one page about the art of storytelling.<br>
 
 ### General features on each page
 
@@ -119,15 +119,23 @@ All pages are responsive and include:<br>
  <li>A footer with the social media links to facebook and instagram</li>
 </ul>
 
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
-
-I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
+Missing: I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
 
 ### Future Implementations
 
-What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
+In the future this website is supposed to be the real website of Alessio Mida, so it makes sense to include:<br>
+<ul>
+ <li>A link to his commercial website (which does not exist yet), in order for customers to find directly to his offered services</li>
+ <li>Another page about his filmmaker activities, maybe with embedded videos from YouTube (have to be uploaded to YouToube first)</li>
+ <li>More categories of his photography activities</li>
+</ul>
+Another idea we had that can be included with javascript:<br>
+<ul>
+ <li>embed the stories on the storytelling website as thumbnails like in instagram, which - when clicked on - open up in a popup-window</li>
+ <li>a connection to his instagram-page which automatically brings a new instagram post into the storytelling section as a new thumbnail, as a new story</li>
 
 ### Accessibility
+Missing:
 
 Be an amazing developer and get used to thinking about accessibility in all of your projects!
 
@@ -140,44 +148,63 @@ Have you chosen fonts that are dyslexia/accessible friendly?
 
 Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
 
+
 ## Technologies Used
-
-👩🏻‍💻 View an example of a completed Technologies Used section [here](https://github.com/kera-cudmore/Bully-Book-Club#Technologies-Used)
-
 
 ### Languages Used
 
-Make a note here of all the languages used in creating your project. For the first project this will most likely just be HTML & CSS.
+HTML & CSS
 
 ### Frameworks, Libraries & Programs Used
 
-Add any frameworks, libraries or programs used while creating your project.
+<ul>
+ <li><a href="https://balsamiq.com/" target="_blank">Balsamiq</a> - Used to create wireframes</li>
+ <li><a href="https://github.com/" target="_blank">Github</a> - To save and store the files for the website</li>
+ <li><a href="https://www.gitpod.io/" target="_blank">GitPod</a> - IDE used to create the site</li>
+ <li><a href="https://fonts.google.com/" target="_blank">Google Fonts</a> - To import the fonts used on the website</li>
+ <li><a href="https://developer.chrome.com/docs/" target="_blank">Google Developer Tools</a> - To troubleshoot and test features, solve issues with responsiveness and styling</li>
+ <li><a href="https://www.iloveimg.com/resize-image" target="_blank">iLoveImg</a> - To resize images</li>
+ </ul>
 
-Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
-
-A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
-
+ 
 ## Deployment & Local Development
-
-👩🏻‍💻 View an example of a completed Deployment & Local Development section [here](https://github.com/kera-cudmore/TheQuizArms#Deployment)
 
 ### Deployment
 
-Include instructions here on how to deploy your project. For your first project you will most likely be using GitHub Pages.
+The site is deployed using GitHub Pages - Alessio Mida.
+
+To Deploy the site using GitHub Pages:
+<ol>
+ <li>Login (or signup) to Github</li>
+ <li>Go to the repository for this project, ellikarg/FirstEverProject</li>
+ <li>Click the settings button</li>
+ <li>Select pages in the left hand navigation menu</li>
+ <li>From the source dropdown select main branch and press save</li>
+ <li>The site has now been deployed, please note that this process may take a few minutes before the site goes live</li>
+</ol>
 
 ### Local Development
 
-
-l development section gives instructions on how someone else could make a copy of your project to play with on their local machine. This section will get more complex in the later projects, and can be a great reference to yourself if you forget how to do this.
-
 #### How to Fork
 
-Place instructions on how to fork your project here.
-
+To fork the repository:
+<ol>
+ <li>Log in (or sign up) to Github</li>
+ <li>Go to the repository for this project, ellikarg/FirstEverProject</li>
+ <li>Click the Fork button in the top right corner</li>
+</ol>
+ 
 #### How to Clone
 
-Place instructions on how to clone your project here.
+To clone the repository:
+<ol>
+ <li>Log in (or sign up) to GitHub</li>
+ <li>Go to the repository for this project, ellikarg/FirstEverProject</li>
+ <li>Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown</li>
+ <li>Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory</li>
+ <li>Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter</li>
 
+ 
 ## Testing
 
 Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
@@ -186,24 +213,26 @@ Testing requirements aren't massive for your first project, however if you start
   
 Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
 
+
 ## Credits
-
-👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
-
-The Credits section is where you can credit all the people and sources you used throughout your project.
 
 ### Code Used
 
-If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
+<ul>
+ <li><a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG" target="_blank">Flexbox Tutorial</a></li>
+ <li><a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY" target="_blank">Grid Tutorial</a></li>
 
 ### Content
 
-Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
+All the information and text on this website is from Alessio Mida and he will use it further on his future website where this website is the first step on the way.
 
 ###  Media
 
-If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
+All images included in the website belong to Alessio Mida and he has the rights for using them on his website.
   
 ###  Acknowledgments
-
-If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
+I would like to acknowledge the following people who helped me along the way in completing my first milestone project:
+<ul>
+ <li>Alessio Mida, for providing all the material for this website</li>
+ <li>Jubril Lionaire, for being a great mentor and helping me with this first project</li>
+ </ul>
