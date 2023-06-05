@@ -131,6 +131,20 @@ footer i {
     padding-top: 3%;
 }
 
+.photos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    margin: 0 auto;
+}
+
+.gallery-images {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    padding-right: 1%;
+}
+
 /* storytelling */
 
 #stories {
