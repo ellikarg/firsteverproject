@@ -124,7 +124,7 @@ footer i {
     color: black;
 }
 
-/* Photography & Filmmaking gallery */
+/* Photography gallery */
 
 .gallery-heading {
     text-align: left;
@@ -135,14 +135,14 @@ footer i {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     width: 100%;
-    margin: 0 auto;
+    column-gap: 3%;
+    row-gap: 3%;
 }
 
 .gallery-images {
     height: 300px;
-    width: 300px;
+    aspect-ratio: 1;
     object-fit: cover;
-    padding-right: 1%;
 }
 
 /* storytelling */
@@ -153,36 +153,55 @@ footer i {
 
 /* media queries */
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1330px) {
+    
+    .gallery-heading {
+        text-align: left;
+        padding-top: 3%;
+    }
+    
     .photos {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         width: 100%;
         margin: 0 auto;
     }
     
     .gallery-images {
         height: 300px;
-        width: 300px;
-        overflow: hidden;
-        padding-right: 1%;
+        aspect-ratio: 1;
+        object-fit: cover;
     }
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:950px) {
+    
     .photos {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             width: 100%;
             margin: 0 auto;
         }
     
         .gallery-images {
             height: 300px;
-            width: 300px;
-            overflow: hidden;
-            padding-right: 1%;
+            aspect-ratio: 1;
+            object-fit: cover;
         }
 }
-    
 
+@media screen and (max-width:390px) {
+    
+    .photos {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .gallery-images {
+        height: 200px;
+        aspect-ratio: 1;
+        object-fit: cover;
+    }
+}
