@@ -42,6 +42,7 @@ Checking the photography page:<br><br>
 Checking the storytelling page:<br><br>
 ![Validator_w3_storytelling_page](https://github.com/ellikarg/firsteverproject/assets/132999023/f7aace52-ab19-424c-a223-cdea687dac76)
 
+I also used [W3C CSS Validation](https://jigsaw.w3.org/css-validator/validator) to validate my css file, which also resulted in no errors.
 
 - - -
 
