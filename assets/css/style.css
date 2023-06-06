@@ -24,6 +24,7 @@ h2 {
     text-align: center;
     margin-top: 5%;
     margin-bottom: 2%;
+    color:#004e64ff;
 }
 
 #main-heading {
@@ -98,7 +99,7 @@ nav ul {
     height: 300px;
     padding: 30px;
     border-style: solid;
-    border-color: #ccc;
+    border-color:#25a18eff;
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
@@ -134,14 +135,19 @@ nav ul {
 
 footer {
     height: 150px;
+    border: 1px solid red;
 }
 
 footer ul {
     text-align: center;
+    max-height: 80%;
+    padding: 1% 0;
+    border: 1px solid green;
 }
 
 footer li {
     display: inline;
+    border: 1px solid blue;
 }
 
 footer i {
@@ -156,6 +162,7 @@ footer i {
 .gallery-heading {
     text-align: left;
     margin: 0 5%;
+    color: #004e64ff;
 }
 
 .gallery-heading-h3 {
