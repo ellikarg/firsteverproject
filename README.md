@@ -72,6 +72,7 @@ Alessio Mida's Homepage is useful for looking up some projects that he has done 
  <li>I want to find links to his social media platforms in order to be able to contact him</li>
 </ul>
 
+---
 
 ## Design
 
@@ -103,6 +104,8 @@ Gallery page:<br>
 ![Gallery](https://github.com/ellikarg/FirstEverProject/assets/132999023/987d50a1-4a4f-4790-b932-fb54acd174c0)<br><br>
 Storytelling page:<br>
 ![Storytelling](https://github.com/ellikarg/FirstEverProject/assets/132999023/969bcaa7-7d8b-4ba4-970f-7fbb01901bd4)<br><br>
+
+---
 
 ## Features
 
@@ -140,6 +143,8 @@ I use white as a background colour and black or midnight-green for the text. Thi
 
 As mentioned before in Typography, I use Quicksand, which belongs to the sans-serif font family and fits very well to the images and content of the page. I am using the weigh of 400, so that the text is easy to read, as well for dyslexic users.
 
+---
+
 ## Technologies Used
 
 ### Languages Used
@@ -157,8 +162,10 @@ HTML & CSS
  <li><a href="https://www.iloveimg.com/resize-image" target="_blank">iLoveImg</a> - To resize images</li>
  <li><a href="https://stackoverflow.com/" target="_blank">Stackoverflow</a> - for any questions that couldn't be answered by the LMS lessons</li>
  <li><a href="https://webaim.org/resources/contrastchecker/" target="_blank">Webaim</a> - for checking the contrast of my page</li>
+ <li><a href="https://www.ador-design.de/webp-converter/" target="_blank">Ador Design</a> - for optimizing images and converting them to webp</li>
  </ul>
 
+---
  
 ## Deployment & Local Development
 
@@ -198,10 +205,13 @@ To clone the repository:
  <li>Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter</li>
 </ol>
  
+---
+
 ## Testing
 
 Please view [TESTING.md](TESTING.md) for the testing documentation.
 
+---
 
 ## Credits
 
