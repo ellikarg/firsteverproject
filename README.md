@@ -130,6 +130,7 @@ Another idea we had that can be included with javascript:<br>
 <ul>
  <li>embed the stories on the storytelling website as thumbnails like in instagram, which - when clicked on - open up in a popup-window</li>
  <li>a connection to his instagram-page which automatically brings a new instagram post into the storytelling section as a new thumbnail, as a new story</li>
+</ul>
 
 ### Accessibility
 
@@ -195,15 +196,11 @@ To clone the repository:
  <li>Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown</li>
  <li>Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory</li>
  <li>Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter</li>
-
+</ol>
  
 ## Testing
 
-Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
-
-Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
-  
-Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
+Please view [TESTING.md](TESTING.md) for the testing documentation.
 
 
 ## Credits
@@ -213,6 +210,7 @@ Use this part of the README to link to your TESTING.md file - you can view the e
 <ul>
  <li><a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG" target="_blank">Flexbox Tutorial</a></li>
  <li><a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY" target="_blank">Grid Tutorial</a></li>
+</ul>
 
 ### Content
 
