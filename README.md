@@ -2,7 +2,7 @@
 
 This homepage is a responsive website that introduces Alessio Mida in his role as a photographer and storyteller to the visitor. It  is not meant to be for selling his service, but to show some of the work he has done so far.
 
-Missing: image of the finished site here [amiresponsive](https://ui.dev/amiresponsive)
+Here you can see an image of the finished site:<br><br>![image](https://github.com/ellikarg/firsteverproject/assets/132999023/ecb0e5f8-36f6-4940-a9f8-d3d8ef19541f)
 
 GitHub Page Link: https://ellikarg.github.io/firsteverproject/index.html
 
