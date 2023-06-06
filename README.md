@@ -134,7 +134,7 @@ Another idea we had that can be included with javascript:<br>
 
 ### Accessibility
 
-Missing: aria-labels
+The code provides aria-labels for icons or buttons without text, so that screenreaders won't have trouble spelling out the content.
  
 I use white as a background colour and black or midnight-green for the text. This ensures a very high contrast rate: ![image](https://github.com/ellikarg/firsteverproject/assets/132999023/50d60f33-d32e-4b7e-b05a-27750a6b89c7)
 
