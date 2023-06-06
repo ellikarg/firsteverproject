@@ -112,44 +112,20 @@ Each device tested the site using the following browsers:
 * Firefox
 
 Additional testing was taken by friends and family on a variety of devices and screen sizes. A Big thank you to all of them!
+<br><br>
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
+|  |  |  |  |  |
 | `Navbar` |
+| Page's Logo (camera icon) | When clicked the user will be redirected to the home page. | Clicked Logo | Redirected to the home page. | Pass |
+| Link "Home" | When clicked the user will be redirected to the home page.| Clicked link | Redirected to the home page. | Pass |
+| Link "Photography" | When clicked the user will be redirected to the page about his photography. | Clicked link | Redirected to the photography page. | Pass |
+| Link "Storytelling" | When clicked the user will be redirected to the page about his storytelling. | Clicked link | Redirected to the storytelling page | Pass |
 |  |  |  |  |  |
-| Bookworm Logo & Title | When clicked the user will be redirected to the home page. | Clicked Logo and title | Redirected to the home page. | Pass |
-| Home Page Link | When clicked the user will be redirected to the home page.| Clicked link | Redirected to the home page. | Pass |
-| Search Link | When clicked the user will be redirected to the search page. | Clicked link | Redirected to the search page. | Pass |
-| Bookshelves Link (Logged in users only) | When clicked the user will be redirected to the bookshelves page. | Clicked link | Redirected to the bookshelves page | Pass |
-| Books Link (Logged in users only) | When clicked the user will be redirected to the books page. | Clicked link | Redirected to the books page | Pass |
-| Profile Link (Logged in users only) | When clicked the user will be redirected to the profile page. | Clicked link | Redirected to the profile page | Pass |
-| Log in Link (Only shown if user not in session) | When clicked the user will be redirected to the log in page. | Clicked link | Redirected to the log in page | Pass |
-| Register Link (Only shown if user not in session) | When clicked the user will be redirected to the register page. | Clicked link | Redirected to the register page  | Pass |
-| Log out Link (Logged in users only) | When clicked the user will be redirected to the home page and a flash message displayed to let the user know they have been logged out successfully. | Clicked link |Redirected to the home page and a flash message displayed to let me know I have been logged out | Pass |
 | `Footer` |
-|  |  |  |  |  |
-| Bookworm Title | When clicked the user will be redirected to the home page. | Clicked Logo and title | Redirected to the home page. | Pass |
-| Copyright year | The copyright should display the correct year - this is a javascript function that checks what the current year is and injects it into the footer | Checked the year | Displaying the correct year | Pass |
-| `Home Page` |
-|   |   |   |   |
-| Register link in the blurb | When clicked the user will be redirected to the register page. | Clicked link  | Redirected to the register page | Pass |
-| Search link in the blurb | When clicked the user will be redirected to the search page. | Clicked link | Redirected to search page | Pass |
-| `Log in Page` |
-| Username input - empty | This is a required field so the form should not submit if empty | Tried to submit the form with this field empty | Tooltip tells me this field is required | Pass |
-| Password input empty | This is a required field so the form should not submit if empty | Tried to submit the form with this field empty | tooltip tells me this field is required |  Pass |
-| log in button | Saves the user to session and redirects to the profile page. Flash message shown welcoming the user | Submitted form | Redirected to the profile page and flash message shown | Pass |
-| Incorrect username or password used | A flash message should display saying username/password incorrect - this is defensive programming - not letting user know which input is incorrect | Incorrect username/password entered | Message flashes to let the user know they have entered an incorrect username/password | Pass |
-| Link to register page |  This should redirect the user to the register page | Clicked link | Redirected to the register page | Pass |
-| `Register Page` |
-| | | | | | |
-| Username input | The username should be 5 characters minimum | Entered username less than 5 characters long | tooltip lets the user know they have not entered enough characters | Pass |
-| Username input - empty | The username is a required field, so should not submit with no value | Tried to submit form with no value entered | Tooltip lets user know this value is required | Pass |
-| Username input | If username is in use, message should flash to user | entered an in use username | Message flashed to say username already in use | Pass|
-| Email input | The email input should include an email address  | Entered plain text | Tooltip tells user to use an email address here | Pass |
-| Email input - empty | The email is a required field, so should not submit with no value | Tried to submit form with no value entered | Tooltip lets user know this value is required | Pass |
-| Password input | This field should be at least 5 characters long | Entered password less than 5 characters long | Tooltip tells user the password should be at least 5 characters long | Pass |
-| Password input - empty | The password is a required field, so should not submit with no value | Tried to submit form with no value entered | Tooltip lets user know this value is required | Pass |
-| Register button | Should redirect user to the log in page and a registration successful message flashed | Created new user and submitted form | Redirected to the log in page and message flashed | Pass |
+| Facebook Link (icon) | When clicked the user will be redirected to the photographer's facebook account. | Clicked Icon | Redirected to the facebook account | Pass |
+| Instagram Link (icon) | When clicked the user will be redirected to the photographer's instagram account. | Clicked Icon | Redirected to the instagram account | Pass |
 
  - - -
 
