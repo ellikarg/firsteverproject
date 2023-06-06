@@ -4,7 +4,7 @@ This homepage is a responsive website that introduces Alessio Mida in his role a
 
 Missing: image of the finished site here [amiresponsive](https://ui.dev/amiresponsive)
 
-Missing: link to the live site (GitHub Page Link)
+GitHub Page Link: https://ellikarg.github.io/firsteverproject/index.html
 
 ---
 
@@ -77,12 +77,9 @@ Alessio Mida's Homepage is useful for looking up some projects that he has done 
 
 ### Colour Scheme
 
-/* CSS HEX */ <br>
+CSS HEX colours used: <br>
 --midnight-green: #004e64ff; <br>
---pacific-cyan: #00a5cfff; <br>
---aquamarine: #9fffcbff; <br>
 --persian-green: #25a18eff; <br>
---light-green: #7ae582ff;
 
 ![color_palette_alessiomida](https://github.com/ellikarg/FirstEverProject/assets/132999023/d751c685-4474-43a8-8c90-8b5adfda2e42)
 
@@ -90,7 +87,7 @@ Alessio Mida's Homepage is useful for looking up some projects that he has done 
 
 Google Fonts was used to import the chosen fonts for use in the site.
 
-I chose to use Quicksand, which belongs to the sans-serif font family and fits very well to the images and content of the page. The font is one of the favourite fonts of the photographer. I have included the light 300 weigh in order to make it look soft and a little bit playful. Nevertheless it is still accessiblity friendly and well to read by dyslexic users.
+I chose to use Quicksand, which belongs to the sans-serif font family and fits very well to the images and content of the page. The font is one of the favourite fonts of the photographer. I first included the light 300 weigh in order to make it look soft and a little bit playful but then decided to go for the weigh of 400 in oder to succeed in the page being accessiblity friendly and well to read by dyslexic users.
 
 ![Quicksand_font](https://github.com/ellikarg/FirstEverProject/assets/132999023/ebe3ab17-9f60-4e72-8d32-b3bb4a97ffc5)
 
@@ -135,19 +132,12 @@ Another idea we had that can be included with javascript:<br>
  <li>a connection to his instagram-page which automatically brings a new instagram post into the storytelling section as a new thumbnail, as a new story</li>
 
 ### Accessibility
-Missing:
 
-Be an amazing developer and get used to thinking about accessibility in all of your projects!
+Missing: aria-labels
+ 
+I use white as a background colour and black or midnight-green for the text. This ensures a very high contrast rate: ![image](https://github.com/ellikarg/firsteverproject/assets/132999023/50d60f33-d32e-4b7e-b05a-27750a6b89c7)
 
-This is the place to make a note of anything you have done with accessibility in mind. Some examples include:
-
-Have you used icons and added aria-labels to enable screen readers to understand these?
-Have you ensured your site meets the minimum contrast requirements?
-Have you chosen fonts that are dyslexia/accessible friendly?
-
-
-Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
-
+As mentioned before in Typography, I use Quicksand, which belongs to the sans-serif font family and fits very well to the images and content of the page. I am using the weigh of 400, so that the text is easy to read, as well for dyslexic users.
 
 ## Technologies Used
 
@@ -164,6 +154,8 @@ HTML & CSS
  <li><a href="https://fonts.google.com/" target="_blank">Google Fonts</a> - To import the fonts used on the website</li>
  <li><a href="https://developer.chrome.com/docs/" target="_blank">Google Developer Tools</a> - To troubleshoot and test features, solve issues with responsiveness and styling</li>
  <li><a href="https://www.iloveimg.com/resize-image" target="_blank">iLoveImg</a> - To resize images</li>
+ <li><a href="https://stackoverflow.com/" target="_blank">Stackoverflow</a> - for any questions that couldn't be answered by the LMS lessons</li>
+ <li><a href="https://webaim.org/resources/contrastchecker/" target="_blank">Webaim</a> - for checking the contrast of my page</li>
  </ul>
 
  
@@ -171,7 +163,7 @@ HTML & CSS
 
 ### Deployment
 
-The site is deployed using GitHub Pages - Alessio Mida.
+The site is deployed using GitHub Pages.
 
 To Deploy the site using GitHub Pages:
 <ol>
@@ -234,5 +226,5 @@ All images included in the website belong to Alessio Mida and he has the rights 
 I would like to acknowledge the following people who helped me along the way in completing my first milestone project:
 <ul>
  <li>Alessio Mida, for providing all the material for this website</li>
- <li>Jubril Lionaire, for being a great mentor and helping me with this first project</li>
+ <li>Jubril Akolade, for being a great mentor and helping me with this first project, especially when I was frustrated that things weren't working out as I wanted them to!</li>
  </ul>
