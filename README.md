@@ -220,6 +220,7 @@ Please view [TESTING.md](TESTING.md) for the testing documentation.
 <ul>
  <li><a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG" target="_blank">Flexbox Tutorial</a></li>
  <li><a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY" target="_blank">Grid Tutorial</a></li>
+ <li>For the logo and footer I used the 'Love Running' Project as a pattern</li>
 </ul>
 
 ### Content
