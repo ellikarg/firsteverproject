@@ -39,6 +39,14 @@ h2 {
 
 /* navigation links */
 
+header i {
+    font-size: 250%;
+    float: left;
+    margin: 13px;
+    padding-left: 2rem;
+    color: #004e64ff;
+}
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -135,26 +143,23 @@ nav ul {
 
 footer {
     height: 150px;
-    border: 1px solid red;
 }
 
 footer ul {
     text-align: center;
     max-height: 80%;
     padding: 1% 0;
-    border: 1px solid green;
 }
 
 footer li {
     display: inline;
-    border: 1px solid blue;
 }
 
 footer i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: black;
+    color: #004e64ff;
 }
 
 /* Photography gallery */
@@ -263,12 +268,20 @@ footer i {
     }
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width: 640px) {
 
     nav ul {
         flex-direction: column;
         padding-bottom: 5%;
     }
+
+    header i {
+        margin: 45px 0 0 13px;
+    }
+
+}
+
+@media screen and (max-width:550px) {
 
     #circle-container {
         width: 200px;
