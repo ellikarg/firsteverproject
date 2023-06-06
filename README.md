@@ -157,6 +157,7 @@ HTML & CSS
  <li><a href="https://www.iloveimg.com/resize-image" target="_blank">iLoveImg</a> - To resize images</li>
  <li><a href="https://stackoverflow.com/" target="_blank">Stackoverflow</a> - for any questions that couldn't be answered by the LMS lessons</li>
  <li><a href="https://webaim.org/resources/contrastchecker/" target="_blank">Webaim</a> - for checking the contrast of my page</li>
+ <li><a href="https://www.ador-design.de/webp-converter/" target="_blank">Ador Design</a> - for optimizing images and converting them to webp</li>
  </ul>
 
  
