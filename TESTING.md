@@ -62,7 +62,7 @@ The scores for the desktop vew were:
 <ul>
   <li>for the index page: 100 for all pages</li>
   <li>for the photography page: between 90 and 100 </li>
-  <li>for the storytelling page: between 98 and 100 with accessibility being 98 because on of the wrong sequentially-descending order of the headings on this page (it went from h1 directly to h3). I'm glad this was noticed in this testing! After the fixing of the order the scores were between 98</li>
+  <li>for the storytelling page: between 98 and 100 with accessibility being 98 because on of the wrong sequentially-descending order of the headings on this page (it went from h1 directly to h3). I'm glad this was noticed in this testing! After the fixing of the order the scores were between 98 and 100</li>
  </ul>
 
 - - -
@@ -83,21 +83,14 @@ I have used the WAVE testing tool to try and ensure there are no accessibility i
 | :--- | :--- | :--- |
 | `First Time Visitors` |
 |  |  |  |
-| Understand what the site is for and how to navigate the site. | A description of what the site is is included on the home page. | :--- |
-| Register for an account. | The description on the home page encourages new users to register for an account. A register link is displayed on the navbar if a user is not logged in. | :--- |
-| Search for books | Users are always shown the search link on the navbar regardless of their login status. | :--- |
+| Get to know Alessio Mida as a creative photographer | The front page displays a small paragraph about him as well as a quotation that he really likes. | :--- |
+| Get an impression of his latest work in photography | The photo gallery on the photography-page shows some of his photographs devided in three categories. | :--- |
+| Be able to read his latest travel stories | The storytelling page displays three stories of his latest travel to Palestine, Israel and Jordan. | :--- |
 |`Returning Visitors`|
 |  |  |  |
-| Log in to my account | If a user is not logged into an account, a login link is provided on the navbar. | :--- |
-| Create a bookshelf | The create a bookshelf button is displayed prominently at the top of the bookshelves page. | :--- |
-| Edit a bookshelf | When a user views their bookshelves on the bookshelves page, they are given the option to edit their bookshelf. | :--- |
-| Delete a bookshelf | When a user views their bookshelves on the bookshelves page, they are given the option to delete their bookshelf. When the user selects delete, a modal will pop up to confirm deletion and to let the user know that all books shelved on that bookshelf will also be deleted. | :--- |
-| Create a book review | When a user searches for a book, they are shown the results of the search and each result has a shelve this book button. When the user clicks on this they are redirected to the review page. | :--- |
-| Edit a book review | When a user views their books, each book has an edit button, which will take the user to the edit review page with the books information pre-populated. | :--- |
-| Delete a book review | When a user views their books, each book has a delete button, when the user clicks this a modal will pop up to confirm the user wishes to delete the book. | :--- |
-|`Admin User` |
-|  |  |  |
-| Remove any reviews that are offensive | Due to time constraints, I have had to place this item in the future implementations list. |  |
+| Get updates about new stories | The storytelling page will be updated regularly and a link from the shorter instagram posts will redirect the readers to the webpage in order to be able to read the whole story. | :--- |
+| Get/remember his instagram and facebook contact | Visitors can follow the links on the bottom of each page to get directly to his facebook and instagram pages. | :--- |
+| Show others his work | Returning visitors can use the site to show his work to others who might be interested in contacting him for a photography session. | :--- |
 
 - - -
 
@@ -118,7 +111,7 @@ Each device tested the site using the following browsers:
 * Safari
 * Firefox
 
-Additional testing was taken by friends and family on a variety of devices and screen sizes. A Big thank you to [Megan](https://github.com/Medusas71) for taking the time to thoroughly test the site for me.
+Additional testing was taken by friends and family on a variety of devices and screen sizes. A Big thank you to all of them!
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
@@ -157,54 +150,6 @@ Additional testing was taken by friends and family on a variety of devices and s
 | Password input | This field should be at least 5 characters long | Entered password less than 5 characters long | Tooltip tells user the password should be at least 5 characters long | Pass |
 | Password input - empty | The password is a required field, so should not submit with no value | Tried to submit form with no value entered | Tooltip lets user know this value is required | Pass |
 | Register button | Should redirect user to the log in page and a registration successful message flashed | Created new user and submitted form | Redirected to the log in page and message flashed | Pass |
-| `Search Page` |
-|   |   |   |   |  |
-| Search feature | A search is performed when the user enters a search term | Searched for rabbits | The search returns book results | Pass |
-| Search feature. - Error | If there is an error with the search, a flash message is displayed to let the user know there was a problem and directs them to try again. | Searched for bulldogs | The search doesn't return a result (please see known bugs No 2), and a flash message is displayed to the user | Pass |
-| Shelve this book button on search result book (user signed in) | When the user clicks the shelve this book button they should be redirected to the add review page | Clicked button while signed in | Redirected to the add review page and book information pre-populated | Pass |
-| Shelve this book button on search result book (user not signed in) | When the user clicks the shelve this book button they should be flashed a message to let them know they need to be logged in to shelve a book and be redirected to the log in page | Clicked button while not signed in | Redirected to the log in page and flash message displayed | Pass |
-| `Bookshelves Page` |
-|   |   |   |   |  |
-| Add a bookshelf button | When the user clicks this button they should be taken to the add a bookshelf page | Clicked button | Redirected to the add a bookshelf page | Pass |
-| Bookshelf accordion | When the user selects a bookshelf, the accordion opens to display the edit and delete bookshelf buttons | Clicked shelf | Accordion opened to display edit and delete buttons | Pass |
-| Edit bookshelf button on bookshelf accordion | The user should be taken to the edit bookshelf page with the selected bookshelf pre-populated in the input | Clicked button | Taken to the edit bookshelf page. Input pre-populated with the current bookshelf name | Pass |
-| Delete button on bookshelf accordion | When the user clicks the delete button a modal should pop up asking the user to confirm they wish to delete the bookshelf and that by deleting the bookshelf all books associated with the shelf will be deleted too | Clicked button | Modal popped up and displayed the confirm deletion message | Pass |
-| Delete Button on Deletion modal| When the user clicks the delete button the bookshelf should be deleted along with any books that were associated with the shelf. A flash message will confirm deletion and the user is redirected to the bookshelves page | Clicked button | Bookshelf deleted together with associated books and a flash message displayed success. Redirected to the bookshelves page | Pass |
-| Cancel button on deletion modal | When the user clicks the cancel button the modal should close | Clicked button | Modal closed | Pass |
-| `Books Page` |
-|   |   |   |   |  |
-| Accordion button | Open/close the accordion | Click button | Accordion opens and closes | Pass |
-| Edit button on book | When the edit button is clicked the user should be taken to the edit review page with the inputs pre-populated with the values stored in the database for that book | Clicked button | Redirected to the edit review page. Books details filled in with previously saved information | Pass |
-| Delete button on book | When the user clicks this button a modal should pop up asking the user to confirm they wish to delete this book | Clicked button | Modal popped up to confirm if I wanted to delete the book | Pass |
-| Delete button on modal | When clicked the book should be deleted | Clicked button | Book Deleted from books page | Pass |
-| Cancel button on modal | When clicked the modal should close | Clicked button | Modal closed | Pass |
-| `Add Bookshelf Page` |
-| Bookshelf input | Should prompt the user to enter a shelf name if left blank | Left blank and clicked add bookshelf button | Tooltip tells you this field needs to be filled in | Pass |
-| Add Bookshelf button | Saves the new bookshelf to the database, redirects the user to the bookshelves page and flashes message to let the user know successful | Clicked button | Bookshelf saved to the database, redirected to the bookshelves page and flash message to save bookshelf created successfully | Pass |
-| `Edit Bookshelf Page` |
-| Input | This should be pre-populated with the bookshelf selected | Checked input against the bookshelf selected |Input pre-populated with the bookshelf selected | Pass |
-| Input - no value entered | The form requires this field be filled in before submission | Left input blank | Tooltip lets me know this field is required | Pass |
-| Edit bookshelf button | When clicked the updated shelf name should be saved to the database, the user redirected to the bookshelves page and a message flashed to let them know updated successfully | clicked button | Updated bookshelf name added to the database, redirected to bookshelf page and flash message shows update has been successful | Pass |
-| `Add Review Page` |
-|   |   |   |   |   |
-| Title input | This is a required field so should ask for a value to be entered if empty. This field should be pre-populated with the book information selected in the search | Input was pre-populated. Cleared the input | Tooltip told me it is a required field | Pass |
-| Author input | This is a required field so should ask for a value to be entered if empty. This field should be pre-populated with the book information selected in the search | Input was pre-populated. Cleared the input | Tooltip told me it is a required field | Pass |
-| Bookshelf dropdown | This should be populated with all the bookshelves associated with the user | Checked to see if all my created bookshelves were displayed | Only my bookshelves are displayed | Pass |
-| Star Ratings | These should be able to be selected to choose your rating | clicked random ratings | The rating was saved to the database | Pass |
-| Review Field | This is an optional field. Any information entered should be saved to the database | Text entered | Text saved to the database | Pass |
-| Notes Field | This is an optional field. Any information entered should be saved to the database | Text entered | Text saved to the database | Pass |
-| Add Review Button | This should add the review to the database and redirect the user to the books page and flash a message to let the user know the book was saved successfully | Clicked button | Review saved to database and redirected to books page, message flashed to let me know book saved successfully | Pass |
-| `Edit Review Page` |
-| Title input | This is a required field so should ask for a value to be entered if empty. This field should be pre-populated with the book information saved to the database | Input was pre-populated. Cleared the input | Tooltip told me it is a required field | Pass |
-| Author input | This is a required field so should ask for a value to be entered if empty. This field should be pre-populated with the book information saved to the database | Input was pre-populated. Cleared the input | Tooltip told me it is a required field | Pass |
-| Bookshelf dropdown | This should be populated with all the bookshelves associated with the user | Checked to see if all my created bookshelves were displayed | Only my bookshelves are displayed | Pass |
-| Star Ratings | These should be able to be selected to choose your rating. Rating saved to the database should be displayed | Rating saved to the database displayed. Clicked random rating to change the rating | The rating was saved to the database | Pass |
-| Review Field | This is an optional field. Previously saved review should display here. Any information entered should be saved to the database | Saved review text displayed. Text Changed | Text saved to the database | Pass |
-| Notes Field | This is an optional field. Previous saved notes should display here. Any information entered should be saved to the database | Notes previously saved to the database displayed, text changed | Text saved to the database | Pass |
-| Edit Review Button | This should add the updated review to the database and redirect the user to the books page and flash a message to let the user know the book was saved successfully | Clicked button | Review saved to database and redirected to books page, message flashed to let me know book saved successfully | Pass |
-| `Error Page` |
-|   |   |   |   |   |
-| Home page link | Redirects the user to the home page | Clicked link | Redirected to home page | Pass |
 
  - - -
 
