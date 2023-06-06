@@ -22,13 +22,13 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
-    margin-top: 5%;
-    margin-bottom: 2%;
+    margin-top: 5px;
+    margin-bottom: 2px;
     color:#004e64ff;
 }
 
 #main-heading {
-    margin-top: 7%;
+    margin-top: 7px;
     margin-bottom: 0;
 }
 
@@ -157,8 +157,7 @@ footer li {
 
 footer i {
     font-size: 160%;
-    margin: 1%;
-    padding: 5%;
+    margin: 0px 5% 3% 5%;
     color: #004e64ff;
 }
 
@@ -232,12 +231,20 @@ footer i {
     .gallery-grid {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    #main-heading {
+        margin-top: 7%;
+    }
 }
 
 @media screen and (max-width:950px) {
 
     .introduction-flex-container {
         flex-direction: column;
+    }
+
+    footer i {
+        margin: 3% 5%;
     }
 
     .gallery-heading {
