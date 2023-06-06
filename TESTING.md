@@ -105,6 +105,7 @@ Full testing was performed on the following devices:
   * Huawei P30 light
   * iPhone SE
   * iPhone 8
+  * Redmi note 8
 
 Each device tested the site using the following browsers:
 
