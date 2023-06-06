@@ -155,30 +155,32 @@ footer i {
 
 .gallery-heading {
     text-align: left;
-    padding-left: 3%;
+    margin: 0 5%;
+}
+
+.gallery-heading-h3 {
+    padding-top: 3%;
 }
 
 .gallery-container {
     max-width: 100%;
-    padding-inline: 3rem;
     min-height: fit-content;
-    border: 1px solid red;
     margin: 0 3%;
 }
 
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 3%;
-    border: 1px solid green;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .gallery-images {
-    height: 100%;
+    height: 80%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     justify-self: center;
-    /*border: 1px solid blue;*/
 }
 
 /* storytelling */
@@ -228,19 +230,11 @@ footer i {
 
     .gallery-heading {
         text-align: center;
+        padding-top: 5%;
     }
 
     .gallery-grid {
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .gallery-images {
-        height: 300px;
-        aspect-ratio: 1;
-        object-fit: cover;
     }
 
     .stories-container {
@@ -259,14 +253,6 @@ footer i {
     .gallery-grid {
         display: grid;
         grid-template-columns: 1fr;
-        width: 100%;
-    }
-
-    .gallery-images {
-        height: 300px;
-        aspect-ratio: 1;
-        object-fit: cover;
-        overflow: hidden;
     }
 }
 
