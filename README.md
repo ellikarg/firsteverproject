@@ -2,7 +2,7 @@
 
 This homepage is a responsive website that introduces Alessio Mida in his role as a photographer and storyteller to the visitor. It  is not meant to be for selling his service, but to show some of the work he has done so far.
 
-Missing: image of the finished site here [amiresponsive](https://ui.dev/amiresponsive)
+Here you can see an image of the finished site:<br><br>![image](https://github.com/ellikarg/firsteverproject/assets/132999023/ecb0e5f8-36f6-4940-a9f8-d3d8ef19541f)
 
 GitHub Page Link: https://ellikarg.github.io/firsteverproject/index.html
 
@@ -130,10 +130,11 @@ Another idea we had that can be included with javascript:<br>
 <ul>
  <li>embed the stories on the storytelling website as thumbnails like in instagram, which - when clicked on - open up in a popup-window</li>
  <li>a connection to his instagram-page which automatically brings a new instagram post into the storytelling section as a new thumbnail, as a new story</li>
+</ul>
 
 ### Accessibility
 
-Missing: aria-labels
+The code provides aria-labels for icons or buttons without text, so that screenreaders won't have trouble spelling out the content.
  
 I use white as a background colour and black or midnight-green for the text. This ensures a very high contrast rate: ![image](https://github.com/ellikarg/firsteverproject/assets/132999023/50d60f33-d32e-4b7e-b05a-27750a6b89c7)
 
@@ -195,15 +196,11 @@ To clone the repository:
  <li>Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown</li>
  <li>Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory</li>
  <li>Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter</li>
-
+</ol>
  
 ## Testing
 
-Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
-
-Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
-  
-Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
+Please view [TESTING.md](TESTING.md) for the testing documentation.
 
 
 ## Credits
@@ -213,6 +210,7 @@ Use this part of the README to link to your TESTING.md file - you can view the e
 <ul>
  <li><a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG" target="_blank">Flexbox Tutorial</a></li>
  <li><a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY" target="_blank">Grid Tutorial</a></li>
+</ul>
 
 ### Content
 
