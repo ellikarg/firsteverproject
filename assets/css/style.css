@@ -162,7 +162,7 @@ footer i {
     max-width: 100%;
     padding-inline: 3rem;
     min-height: fit-content;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     margin: 0 3%;
 }
 
@@ -170,7 +170,7 @@ footer i {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 3%;
-    /*border: 1px solid green;*/
+    border: 1px solid green;
 }
 
 .gallery-images {
