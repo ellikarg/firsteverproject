@@ -83,9 +83,9 @@ nav ul {
 .introduction-flex-container {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     gap: 2rem;
-    padding: 0 10%;
+    width: 90%;
 }
 
 .introduction-box {
@@ -113,7 +113,7 @@ nav ul {
 }
 
 #introduction-text {
-    padding: 30px;
+    padding: 5%;
     text-align: justify;
 }
 
@@ -121,8 +121,12 @@ nav ul {
     display: flex;
     justify-content: flex-end;
     text-align: right;
-    margin-top: 7%;
+    margin-top: 5%;
     width: 90%;
+}
+
+.quotation-container p {
+    padding: 0 5%;
 }
 
 /* footer */
@@ -150,25 +154,30 @@ footer i {
 
 .gallery-heading {
     text-align: left;
-    padding-top: 3%;
+    padding-left: 3%;
 }
 
 .gallery-container {
     max-width: 100%;
     padding-inline: 3rem;
+    min-height: fit-content;
+    /*border: 1px solid red;*/
+    margin: 0 3%;
 }
 
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 3%;
-    row-gap: 3%;
+    gap: 3%;
+    /*border: 1px solid green;*/
 }
 
 .gallery-images {
-    height: 300px;
+    height: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
+    justify-self: center;
+    /*border: 1px solid blue;*/
 }
 
 /* storytelling */
@@ -205,22 +214,8 @@ footer i {
 
 @media screen and (max-width: 1330px) {
 
-    .gallery-heading {
-        text-align: left;
-        padding-top: 3%;
-    }
-
     .gallery-grid {
-        display: grid;
         grid-template-columns: repeat(3, 1fr);
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .gallery-images {
-        height: 300px;
-        aspect-ratio: 1;
-        object-fit: cover;
     }
 }
 
@@ -228,6 +223,10 @@ footer i {
 
     .introduction-flex-container {
         flex-direction: column;
+    }
+
+    .gallery-heading {
+        text-align: center;
     }
 
     .gallery-grid {
@@ -253,7 +252,7 @@ footer i {
     .gallery-container {
         max-width: 100%;
         margin: auto;
-        justify-content: center;
+        justify-items: center;
     }
 
     .gallery-grid {
@@ -266,6 +265,7 @@ footer i {
         height: 300px;
         aspect-ratio: 1;
         object-fit: cover;
+        overflow: hidden;
     }
 }
 
