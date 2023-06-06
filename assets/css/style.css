@@ -222,10 +222,6 @@ footer i {
     object-fit: cover;
 }
 
-.stories-heading {
-    color: #004e64ff;
-}
-
 .stories {
     width: 100%;
     text-align: justify;
